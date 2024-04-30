@@ -6,6 +6,23 @@
     <title>Code</title>
   </head>
   <body>
+    <script>
+      let x, y, z;
+    </script>
     <p>Hello world</p>
+    <p>x = 5 and y = 6</p>
+    <script>
+      x = 5;
+      y = 6;
+      z = x + y;
+    </script>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = z;"
+    >
+      Hasil nya
+    </button>
+    <p id="demo"></p>
+    x= <input type="text" value="5" /> y= <input type="text" value="6" />
   </body>
 </html>
